@@ -45,4 +45,4 @@ def handleboard(board, last_move):
         + "/chess/"
         + path
         + "?wrap=0"
-    
+    )
