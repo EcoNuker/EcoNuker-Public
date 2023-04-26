@@ -22,4 +22,4 @@ Some of our requirements can be tricky. This includes `cairosvg` and `uplink-pyt
         - There may be issues on Windows. If you're getting the `loadinternal: cannot find runtime\cgo error`, run this command: `go env -w CGO_ENABLED=1`
         - There may be issues on Windows. If you're getting the `cgo: C compiler "gcc" not found: exec: "gcc": executable file not found in %PATH%` error, install https://jmeubank.github.io/tdm-gcc/. Make sure to check "Add to Path" at the bottom of the list of items!
         - Once you have built `libuplinkc.so`, check the error message again. There should be a path where the `uplink-python` library is installed; this is normally located at (Windows) `%localappdata%\Programs\Python\Python310\Lib\site-packages\uplink_python`, (Linux) `/usr/local/lib/python3.10/dist-packages/uplink_python`
-Navigate to the directory, and drop libuplinkc.so into it. Verify the uplink works by running the bot again.
+            - Navigate to the directory, and drop libuplinkc.so into it. Verify the uplink works by running the bot again.
